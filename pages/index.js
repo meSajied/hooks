@@ -1,9 +1,9 @@
-import StateHook from './hooks/StateHooks'
+import StateHook from './hooks/StateHook';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <StateHook />
-    </div>
+      <div>
+        <StateHook/>
+      </div>
   )
 }
