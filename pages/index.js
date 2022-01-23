@@ -1,11 +1,9 @@
-import {StateHook, StateHookFromPreviousState, StateHookWithObject} from '../components/StateHook';
+import {StateHookWithArray} from '../components/StateHook';
 
 export default function Home() {
   return (
       <div>
-        <StateHook/>
-        <StateHookFromPreviousState/>
-        <StateHookWithObject/>
+        <StateHookWithArray/>
       </div>
   )
 }
