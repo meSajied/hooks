@@ -1,9 +1,9 @@
-import {StateHookWithArray} from '../components/StateHook';
+import {EffectHook} from "../components/EffectHook";
 
 export default function Home() {
   return (
       <div>
-        <StateHookWithArray/>
+        <EffectHook/>
       </div>
   )
 }
