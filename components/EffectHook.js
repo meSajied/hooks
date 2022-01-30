@@ -37,9 +37,16 @@ export function EffectHookWithCondition() {
 
 	return (
 			<div>
-				<input type='text' value={name} onChange={e => setName(e.target.value)}/>
+				<input type='text' value={name} onChange={e =>
+						setName(e.target.value)}/>
 				<button onClick={() => setCount(count + 1)}>
 					Count {count} </button>
 			</div>
 	)
+}
+
+export function EffectRunOnlyOnce() {
+	useEffect({
+		// do something...
+	}, []) // this parameter make the effects only once...
 }
