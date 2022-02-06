@@ -1,9 +1,9 @@
-import {EffectHookWithCondition} from "../components/EffectHook";
+import ReducerHook from "../components/ReducerHook";
 
 export default function Home() {
   return (
       <div>
-        <EffectHookWithCondition/>
+        <ReducerHook/>
       </div>
   )
 }
